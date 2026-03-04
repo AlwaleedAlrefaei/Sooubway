@@ -15,4 +15,3 @@
 
 * **How it works:** Both the core sandwiches and the add-on condiments implement the exact same `Sandwich` interface (or abstract type). You "wrap" a sandwich in a topping by passing the core sandwich object directly into the condiment's constructor.
 * **The Result:** The main program interacts with the outermost layer thinking it is just talking to a standard sandwich. In reality, it is talking to a **Condiment Wrapper (Decorator)** that seamlessly tacks on its own price and behavior to the underlying sandwich.
-* 
